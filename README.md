@@ -1,6 +1,6 @@
-# Tailnext
+# Thuberry
 
-**Tailnext** is a free and open-source template to make your website using **[NextJS](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account best practices.
+**Thuberry** LTD began with a vision: to transform accounting services for SMEs and startups, making them accessible, comprehensive, and tailor-made for each client’s unique journey. Founded by a team of seasoned financial experts passionate about entrepreneurship, we've built our firm on the principles of integrity, innovation, and insight. From our early days in a modest office to becoming a trusted partner for businesses nationwide, our story is one of growth, learning, and unwavering commitment to our clients' success.
 
 ## Features
 
@@ -25,38 +25,34 @@
 <details open>
 <summary>Table of Contents</summary>
 
-- [Demo](#demo)
+- [Website](#website)
 - [Getting started](#getting-started)
   - [Project structure](#project-structure)
   - [Commands](#commands)
   - [Configuration](#configuration)
   - [Deploy](#deploy)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-
 </details>
 
 <br>
 
-## Demo
+## Website
 
-📌 [https://tailnext.vercel.app/](https://tailnext.vercel.app/)
+📌 [https://thuberry.com](https://thuberry.com)
 
 <br>
 
 ## Getting started
 
 - Clone: `git clone https://github.com/onwidget/tailnext.git`
-- Enter in the directory: `cd tailnext`
+- Enter in the directory: `cd thuberry`
 - Install dependencies: `npm install`
 - Start the development server: `npm run dev`
 - View project in local environment: `localhost:3000`
 
 ### Project structure
 
-Inside **Tailnext** template, you'll see the following folders and files:
+Inside **Thuberry** website, you'll see the following folders and files:
 
 ```
 /
@@ -156,15 +152,4 @@ Coming soon ..
 
 <br>
 
-## Contributing
 
-If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
-That would be very useful for all of us and we would be happy to listen and take action.
-
-## Acknowledgements
-
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/tailnext/graphs/contributors).
-
-## License
-
-**Tailnext** is licensed under the MIT license — see the [LICENSE](https://github.com/onwidget/tailnext/blob/main/LICENSE.md) file for details.
