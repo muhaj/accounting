@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'Thuberry',
 
-  origin: 'https://tailnext.vercel.app',
+  origin: 'https://accountant-delta.vercel.app/',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'Thuberry - Empower SMEs and StartUps with accounting and bookkeeping services ',
+  description: 'Our Accounting Services - Bookkeeping, Personal Tax/Sole Trader, VAT Returns, Payroll/PAYE & CIS, Corporation Tax, Annual Accounts, Accounting for Web3 Companies, Limited Company Setup, System Automation, System Integration',
 };
