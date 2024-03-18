@@ -41,7 +41,6 @@ export default function Page() {
       <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
       <Steps {...stepsHome} />
-      <Testimonials {...testimonialsHome} />
       <FAQs2 {...faqs2Home} />
       <Pricing {...pricingHome} />
       <Team {...teamHome} />
