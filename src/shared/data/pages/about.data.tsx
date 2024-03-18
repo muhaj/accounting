@@ -40,11 +40,11 @@ import {
 export const hero2About: HeroProps = {
   title: 'Great companies are made by great people',
   subtitle:
-    'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui.',
-  tagline: 'About Us Demo Page',
+    'Thuberry began with a vision: to transform accounting services for SMEs and startups, making them accessible, comprehensive, and tailor-made for each clients unique journey. Founded by a team of financial experts passionate about entrepreneurship, we have built our firm on the principles of integrity, innovation, and insight. From our early days in a modest office to becoming a trusted partner for businesses nationwide, our story is one of growth, learning, and unwavering commitment to our clients success.',
+  tagline: 'Navigating the Journey Together ',
   callToAction: {
-    text: 'View jobs',
-    href: 'https://www.linkedin.com/',
+    text: 'Services',
+    href: '/services',
     targetBlank: true,
   },
   callToAction2: {
@@ -88,7 +88,7 @@ export const featuresFourAbout: FeaturesProps = {
   header: {
     title: 'Our mission',
     subtitle:
-      'Quisque laoreet nisi et lectus consectetur, at placerat libero dictum. Donec sed hendrerit turpis. Nunc vel nibh blandit, hendrerit turpis non, mattis magna. Duis feugiat dui mi, eget iaculis ligula gravida congue. Nam quis mauris id eros imperdiet imperdiet. In et dolor non nisi vestibulum rhoncus nec eget dolor.',
+      'Our mission is simple: to empower SMEs and startups with financial services that pave the way for sustainable growth and success. We envision a world where every entrepreneur has access to the financial tools and expertise needed to thrive in a competitive marketplace.At Thuberry we are committed to making that vision a reality, one business at a time.',
     tagline: 'Mission and Values',
   },
 };
@@ -99,41 +99,41 @@ export const featuresFourAboutTwo: FeaturesProps = {
   hasBackground: false,
   header: {
     title: 'Our values',
-    subtitle: 'Etiam tellus tortor, mattis id mauris et, lobortis ullamcorper nunc.',
+    subtitle: 'A Partnership Built on Excellence.',
   },
   isAfterContent: true,
   columns: 2,
   items: [
     {
-      title: 'Customer-centricity',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      title: 'Client-centricity',
+      description: 'Prioritizing the unique needs and goals of each client, offering personalized services and solutions to support their specific financial objectives.',
       icon: IconUser,
     },
     {
       title: 'Innovation and adaptability',
       description:
-        'Etiam ornare, purus nec venenatis porttitor, velit leo convallis dui, at porttitor nibh tortor quis velit.',
+        'Continuously exploring and implementing advanced technologies and methodologies to improve efficiency and offer cutting-edge accounting solutions.',
       icon: IconBulb,
     },
     {
-      title: 'Quality assurance',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+      title: 'Accuracy and Quality assurance',
+      description: 'Committing to precision in all financial documentation and reporting, minimizing errors to provide reliable financial information.',
       icon: IconThumbUp,
     },
     {
-      title: 'Accessibility and customization',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+      title: 'Professional Development',
+      description: 'Investing in ongoing education and training to stay abreast of the latest accounting standards, regulations, and best practices, ensuring our team delivers the most competent and informed services.',
       icon: IconAdjustments,
     },
     {
-      title: 'Collaboration and partnership',
+      title: 'Confidentiality',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis.',
+        'Protecting sensitive financial data with stringent security measures, respecting the privacy and trust placed in our services by clients.',
       icon: IconHeartHandshake,
     },
     {
-      title: 'Ethical and responsible design',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Ethical',
+      description: 'Upholding the highest ethical standards, ensuring that all financial reporting and accounting practices are transparent and honest.',
       icon: IconHomeEco,
     },
   ],
@@ -192,38 +192,38 @@ export const features3About: FeaturesProps = {
   header: {
     title: 'Our culture',
     subtitle:
-      'Nullam maximus ante eros, ac eleifend mi condimentum ut. Donec volutpat felis ac purus pretium, vitae mollis quam scelerisque.',
+      'Our culture is the bedrock of our success, a space where collaboration, learning, adaptability, transparency, inclusivity, and balance are not just valued—they are lived.',
     tagline: 'culture',
   },
   items: [
     {
-      title: 'Customer engagement',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      title: 'Transparency',
+      description: 'We believe in open communication and honesty within our team and with our clients, creating a foundation of trust. "Clarity in action, integrity at heart.".',
       icon: IconCirclesRelation,
     },
     {
-      title: 'Creativity and design excellence',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Adaptability',
+      description: 'Embracing change as the only constant, we remain agile and open-minded to thrive in a dynamic world. "Change is our stepping stone for growth.".',
       icon: IconPalette,
     },
     {
       title: 'Continuous learning',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+      description: 'Our culture thrives on curiosity and growth, encouraging ongoing education and exploration. "Forever learners, forever leaders.".',
       icon: IconBook,
     },
     {
-      title: 'Collaboration and cross-functionality',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+      title: 'Diversity and cross-functionality',
+      description: 'Valuing diversity, we create a welcoming environment where every individual can belong and excel. "Diverse in thought, united in purpose.".',
       icon: IconPuzzle2,
     },
     {
       title: 'Entrepreneurial spirit',
-      description: 'Phasellus interdum placerat enim sed vehicula. Ut tincidunt, magna in iaculis maximus.',
+      description: 'Embracing innovation, risk-taking, and creativity, we cultivate an environment where every team member is empowered to think like an entrepreneur. "Innovating today for tomorrows success.".',
       icon: IconFlame,
     },
     {
       title: 'Employee well-being and balance',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      description: 'Understanding the importance of personal well-being, we support a balance between professional commitments and personal life. "Thriving at work, thriving at life.".',
       icon: IconScale,
     },
   ],
@@ -596,16 +596,16 @@ export const contactAbout: ContactProps = {
     tagline: 'Contact info',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'Ready to take the next step towards financial clarity and success? Contact us today, and lets embark on this journey together.',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['246 Downham Way, Bromley', 'London, BR1 5NS'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +44 7387 190758', 'Mail: hello@thuberry.com'],
       icon: IconPhoneCall,
     },
     {

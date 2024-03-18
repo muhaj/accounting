@@ -1,10 +1,23 @@
 import {
+  IconAbacus,
   IconArrowsRightLeft,
+  IconBook,
+  IconBook2,
+  IconBrandAlipay,
+  IconBrandOffice,
   IconBrandTailwind,
   IconBulb,
+  IconCalculator,
+  IconCashBanknote,
+  IconCashBanknoteOff,
   IconChevronsRight,
   IconComponents,
+  IconCone,
+  IconHelmet,
+  IconKey,
   IconListCheck,
+  IconPaperclip,
+  IconPentagonX,
   IconRocket,
 } from '@tabler/icons-react';
 
@@ -23,17 +36,13 @@ import cameraBackImg from '~/assets/images/camera-back.jpg';
 
 // Hero data on Services page *******************
 export const heroServices: HeroProps = {
-  title: 'Elevate your projects with our stunning templates',
+  title: 'Accountancy Services for small businesses and startups',
   subtitle:
-    'Donec aliquam pharetra nibh quis vestibulum. Praesent hendrerit sem at lacus ullamcorper egestas. Morbi lacinia ipsum in nulla gravida, ac sagittis turpis pretium. ',
+    'From Bookkeeping to System Integration - tailored to refine your financial operations and enhance efficiency. Discover how we can revolutionise your business.',
   callToAction: {
-    text: 'Start Exploring',
-    href: 'https://github.com/onwidget/tailnext',
-    targetBlank: true,
-  },
-  image: {
-    src: heroImg,
-    alt: 'Hero TailNext',
+    text: 'Start Your Journey',
+    href: '/contact',
+    targetBlank: false,
   },
 };
 
@@ -45,35 +54,50 @@ export const features2Services: FeaturesProps = {
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
+      title: 'Bookkeeping',
+      description: 'Unmatcched Quality Bookkeeping - Satisfaction Guaranteed Every Step!',
+      icon: IconAbacus,
     },
     {
-      title: 'Ready-to-use Components',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
+      title: 'Sole Trader',
+      description: 'Beyond Tax Preparation - Your Personal Finance Partner.',
+      icon: IconCashBanknote,
     },
     {
-      title: 'Best Practices',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
+      title: 'Payroll/PAYE & CIS',
+      description: 'Efficiency in Payroll - Excellence in Service!',
+      icon: IconKey,
     },
     {
-      title: 'Excellent Page Speed',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
+      title: 'Corporation Tax',
+      description: 'Strategic Tax Solutions - Customised to Propel Your Business Vision Forward.',
+      icon: IconCalculator,
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Annual Accounts',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+        'Your Financial Records - Meticulously Managed',
       icon: IconArrowsRightLeft,
     },
     {
-      title: 'Open to new ideas and contributions',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
-      icon: IconBulb,
+      title: 'Limited Company Setup',
+      description: 'Streamlined Setup - Compliant from the Start',
+      icon: IconRocket,
+    },
+    {
+      title: 'System Automation',
+      description: 'Streamlining Your Financial Tasks with Intelligent Automation.',
+      icon: IconBook2,
+    },
+    {
+      title: 'System Integration',
+      description: 'Seamless Integration - Comprehensive Financial Insights',
+      icon: IconPaperclip,
+    },
+    {
+      title: 'VAT Returns',
+      description: 'Predictable Costs, Complete Transparency.',
+      icon: IconListCheck,
     },
   ],
 };
@@ -282,7 +306,7 @@ export const callToActionServices: CallToActionProps = {
   hasBackground: false,
   title: 'Still have questions?',
   subtitle:
-    'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in leo odio. Cras finibus ex a ante convallis ullamcorper.',
+    '',
   callToAction: {
     text: 'Contact us',
     href: '/contact',

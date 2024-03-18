@@ -1,7 +1,7 @@
 module.exports.SITE = {
   name: 'Thuberry',
 
-  origin: 'https://accountant-delta.vercel.app/',
+  origin: 'https://thuberry.com/',
   basePathname: '/',
   trailingSlash: false,
 

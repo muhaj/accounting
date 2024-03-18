@@ -7,11 +7,11 @@ export const heroContact: HeroProps = {
   title: 'Get in touch with us',
   subtitle: (
     <>
-      <span className="hidden md:inline">{`Thank you for considering us for your project! We're excited to hear from you.`}</span>{' '}
-      {`Our team can assist you in building your dream website.`}
+      <span className="hidden md:inline">{`Thank you for considering us!`}</span>{' '}
+      {`Our team is dedicated to help your business thrive and achieve its full potential.`}
     </>
   ),
-  tagline: 'Demo Contact Page',
+  tagline:"We're Just a Message Away!"
 };
 
 // Contact data on Contact page *******************
@@ -73,16 +73,28 @@ export const contact2Contact: ContactProps = {
       label: 'What is the reason for your contact?',
       radios: [
         {
-          label: 'General inquiries',
+          label: 'General enquiries',
         },
         {
-          label: 'Technical help',
+          label: 'Bookkeeping',
         },
         {
-          label: 'Claims',
+          label: 'Payroll Services',
         },
         {
-          label: 'Others',
+          label: 'Sole Trader',
+        },
+        {
+          label: 'Corporate Tax & VAT',
+        },
+        {
+          label: 'Systems',
+        },
+        {
+          label: 'Web3 Accounting',
+        },
+        {
+          label: 'Other',
         },
       ],
     },
